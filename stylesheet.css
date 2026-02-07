@@ -1,28 +1,75 @@
-body {
-    font-size: 1.5rem;
-    background-color: #555;
+html {
+    font-size: 24px;
 }
 
-header {
-    color: #333;
-    font-size: 1.625rem;
+body {
+    background-color: rgb(154, 158, 152);
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+/* Formatting of page header using id */
+#pageHeader {
+    background-color: #555;
+    color: whitesmoke;
+    font-size: 5rem;
     font-weight: 700;
-    line-height: 1.2;
-    text-rendering: optimizeLegibility;
-  
-    margin: 2.5rem 0 .625rem; 
-    display:block;
+
+    margin: 2.5rem 1rem;
+    border: 1rem solid black;
+    grid-column: 1 / -1;
+    display: block;
+}
+
+article {
+    grid-column: 1;
+}
+
+aside {
+    grid-column: 2;
+}
+
+footer {
+    grid-column: 1 / -1;
+    display: block;
+}
+
+/* Formatting of visited park blocks using class*/
+.park {
+    background-color: black;
+    color: whitesmoke;
+    font-size: 2.5rem;
+    width: 30%;
+    display: inline-block;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+    margin: 1rem 1rem;
 }
 
 h1 {
-    color: antiquewhite;
-}
-
-.subheading {
-    font-size: 1.5rem !important;
+    font-size: 3rem;
     font-weight: 400;
     color: #555;
   
     margin: 2.5rem 0 .625rem; 
-    display:block;
+    display: block;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 200;
+    display: block;
+}
+
+a {
+    color:blue;
+}
+a:hover {
+    color:maroon;
+}
+a:visited {
+    color:mediumpurple;
 }
