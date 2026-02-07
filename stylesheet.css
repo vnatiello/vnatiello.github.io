@@ -64,7 +64,7 @@ h2 {
     display: block;
 }
 
-a {
+a:link {
     color:blue;
 }
 a:hover {
