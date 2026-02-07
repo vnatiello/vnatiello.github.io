@@ -46,15 +46,17 @@ footer {
 img {
     max-width: 90%;
     height: auto;
-    margin: 1rem 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 400;
     color: #555;
   
-    margin: 2.5rem 1rem; 
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
     display: block;
 }
 
@@ -65,7 +67,8 @@ h2 {
 }
 
 p {
-    margin: 1rem 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 a:link {
