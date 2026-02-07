@@ -1,5 +1,5 @@
 html {
-    font-size: 24px;
+    font-size: 16px;
 }
 
 body {
@@ -23,10 +23,12 @@ body {
 
 article {
     grid-column: 1;
+    margin: 1rem 1rem;
 }
 
 aside {
     grid-column: 2;
+    margin: 1rem 1rem;
 }
 
 footer {
