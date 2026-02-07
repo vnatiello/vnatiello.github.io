@@ -1,7 +1,28 @@
 body {
-    background-color: darkolivegreen;
+    font-size: 1.5rem;
+    background-color: #555;
 }
 
 header {
-    background-color: darkslategrey;
+    color: #333;
+    font-size: 1.625rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-rendering: optimizeLegibility;
+  
+    margin: 2.5rem 0 .625rem; 
+    display:block;
+}
+
+h1 {
+    color: antiquewhite;
+}
+
+.subheading {
+    font-size: 1.5rem !important;
+    font-weight: 400;
+    color: #555;
+  
+    margin: 2.5rem 0 .625rem; 
+    display:block;
 }
